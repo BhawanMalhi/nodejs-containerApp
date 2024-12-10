@@ -26,7 +26,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: bhawan145/nodejs-containerApp:latest
+          tags: bhawan145/nodejs-container-app:latest
+         
 
   deploy:
     runs-on: ubuntu-latest
