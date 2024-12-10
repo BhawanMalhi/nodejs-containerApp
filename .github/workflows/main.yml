@@ -26,7 +26,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-docker-username/your-repo-name:latest
+          tags: bhawan145/nodejs-containerApp:latest
 
   deploy:
     runs-on: ubuntu-latest
